@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px blue;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcddbb;
+}
+
+li button {
+  margin-left: 300px;
+  margin-right: 300px;
+}
